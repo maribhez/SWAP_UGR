@@ -1,0 +1,39 @@
+<pregunta>
+  <enunciado>A la hora de montar el servidor de un servidor web sería adecuado tener en cuenta. </enunciado>
+  <opcionA>Trabajo inicial de configuración.</opcionA>
+  <opcionB>Trabajo de mantenimiento.</opcionB>
+  <opcionC>Las dos anteriores.</opcionC>
+  <opcionD>Ninguna es correcta</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Una granja web puede pertenecer a:</enunciado>
+  <opcionA>Un único empresario.</opcionA>
+  <opcionB>Varias empresas en la mayoría de los casos, teniendo por lo tanto varios servicios.</opcionB>
+  <opcionC>Todo el que quiera tener acceso a él puede llegar a ser su dueño.</opcionC>
+  <opcionD>Nadie, no puede adquirirse su propiedad. </opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado>Una granja web:</enunciado>
+  <opcionA>Resuelven los problemas de sistemas más simples para dar servicio a un alto número de usuarios.</opcionA>
+  <opcionB>Es apreciable para el usuario.</opcionB>
+  <opcionC>Es peor solución que tener una sola máquina para proporcionar servicios.</opcionC>
+  <opcionD>Nadie, no puede adquirirse su propiedad. </opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado>En un sitio web mal planificado pueden surgir problemas de:</enunciado>
+  <opcionA>Problemas de la arquitectura del sistema.</opcionA>
+  <opcionB>Problemas con la disponibilidad.</opcionB>
+  <opcionC>Problemas con la carga del sistema.</opcionC>
+  <opcionD> Todas las anteriores. </opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+ 
