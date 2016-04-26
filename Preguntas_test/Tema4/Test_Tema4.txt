@@ -1,0 +1,64 @@
+
+<pregunta>
+  <enunciado>Las desventajas de los servidores montados con mainframes son: </enunciado>
+  <opcionA>Caros de adquirir y mantener.</opcionA>
+  <opcionB>Hardware y software propietario. </opcionB>
+  <opcionC>Memoria y discos compartidos.</opcionC>
+  <opcionD>Todas las anteriores.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+
+
+
+<pregunta>
+  <enunciado>El balancio de carga de un servidor mediante DNS: </enunciado>
+  <opcionA> Configura el DNS asignando IP diferentes para el mismo sitio. </opcionA>
+  <opcionB> Reparte los recursos mediante una planificación por prioridad. </opcionB>
+  <opcionC> Tienen información sobre la disponibilidad de las máquinas servidoras finales.</opcionC>
+  <opcionD> Es mejor solución que una granja web con balanceo de carga. </opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+
+
+<pregunta> 
+  <enunciado> En un balanceo de carga global </enunciado>
+  <opcionA> Se puede implementar con los DNS o BGP (Border Gateway Protocol). </opcionA>
+  <opcionB> Se balancean todos las peticiones a la vez. </opcionB>
+  <opcionC>Se realiza un balanceo entre centros de datos, y además, entre los servidores dentro del centro de datos escogido.</opcionC>
+  <opcionD>El tráfico de un usuario va desde el navegador cliente al centro de datos mejor dotado.</opcionD>
+  <solucion> A y C son las respuestas correctas. </solucion>
+</pregunta>
+
+
+
+<pregunta>
+  <enunciado> La técnica Round-Robin es adecuada: </enunciado>
+  <opcionA> Cuando todas las máquinas servidoras finales son de potencia similar. </opcionA>
+  <opcionB> Cuando tengamos prisa en tener respuesta del servidor.</opcionB>
+  <opcionC> Siempre. </opcionC>
+  <opcionD> Nunca. </opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado> Dentro de un algoritmo basado en el menor número de conexiones, si todas las máquinas llevan
+	un número similar de conexiones: </enunciado>
+  <opcionA> El usuario escoge al servidor final al que lanzará su petición. </opcionA>
+  <opcionB> La petición irá al servidor final que lleve más tiempo ocioso..</opcionB>
+  <opcionC> La orden se lanza de forma totalmente aleatoria. </opcionC>
+  <opcionD> La petición es rechazada, este caso no debe darse nunca. </opcionD>
+  <solucion> B.</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado> El peso que le asignemos a cada máquina en el algoritmo basado en ponderación: </enunciado>
+  <opcionA> Es siempre el mismo. </opcionA>
+  <opcionB> Depende del tipo de aplicación que queramos servir. No es lo mismo necesitar CPU que memoria.</opcionB>
+  <opcionC> Determina siempre lo buena que es una aplicación. </opcionC>
+  <opcionD> Enorgullece al propietario de esa máquina. </opcionD>
+  <solucion>B</solucion>
+</pregunta>
