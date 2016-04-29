@@ -1,0 +1,52 @@
+<pregunta>
+  <enunciado> El número de conexiones por segundo:</enunciado>
+  <opcionA> Hace referencia al número de conexiones de entrada que cierto dispositivo 
+		puede manejar por segundo.</opcionA>
+  <opcionB> Es una de las métricas más importantes cuando hablamos del rendimiento de 
+		servidores web. </opcionB>
+  <opcionC> Es muy importante, ya que abrir y cerrar conexiones HTTP resulta poco costoso.</opcionC>
+  <opcionD>  A y B son las correctas. </opcionD>
+  <solucion> D </solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado> HTTP: </enunciado>
+  <opcionA> Usa el puerto 22. </opcionA>
+  <opcionB> No necesita paquetes ACK como respuesta a un paquete recibido para establecer conexión.</opcionB>
+  <opcionC> Todo lo contrario a B, sí necesita ACK (sobreentiendiendo TCP). </opcionC>
+  <opcionD> Sólo se maneja mediante UDP. </opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> La definición "Velocidad a la que el balanceador maneja y pasa el tráfico" corresponde a:</enunciado>
+  <opcionA>Conexiones por segundo.</opcionA>
+  <opcionB>Número de conexiones concurrentes. </opcionB>
+  <opcionC>Disponibilidad de recursos.</opcionC>
+  <opcionD>Rendimiento.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado>Jumbo Frame es:</enunciado>
+  <opcionA> Anterior a la restricción de enviar paquetes de un tamaño determinado por el MTU.</opcionA>
+  <opcionB> Una posibilidad de modificar el tamaño de los paquetes para optimizar el tráfico y la 
+	transferencia de información.</opcionB>
+  <opcionC> No presenta ninguna ventaja. </opcionC>
+  <opcionD> La razón de una mayor decicación de CPU para su procesado en tarjetas de red, 	
+	routers..., además de llegar después.</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado> Una vez llegamos al límite de tráfico de red sufrimos: </enunciado>
+  <opcionA> Degradación de los tiempos de respuesta en las conexiones TCP. </opcionA>
+  <opcionB> No hay vuelta atrás y debemos formatear nuestro servicio, para de esa forma comenzar de cero el servicio.</opcionB>
+  <opcionC> La ira de los usuarios de nuestros servicios.</opcionC>
+  <opcionD> Un daño transparente para el usuario.  </opcionD>
+  <solucion> A </solucion>
+</pregunta>
+
