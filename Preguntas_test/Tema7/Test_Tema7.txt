@@ -1,0 +1,37 @@
+<pregunta>
+  <enunciado>Las prestaciones de los sistemas de almacenamiento pueden ser:</enunciado>
+  <opcionA>Tanto ampliación vertical como horizontal.</opcionA>
+  <opcionB>No se puede ampliar el sistema una vez instaurado. </opcionB>
+  <opcionC>Como se desee, o sea necesario.</opcionC>
+  <opcionD> Lo conocido como ampliación horizontal. </opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>El número de sesiones concurrentes en la BD puede afectar al rendimiento de la granja web completa. </enunciado>
+  <opcionA>Dependiendo de la configuraciónd de nuestra granja.</opcionA>
+  <opcionB>Verdadero.</opcionB>
+  <opcionC>Falso.</opcionC>
+  <opcionD>No, sólo puede afectar el tipo de accesos que se realizan. </opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué es RAID? </enunciado>
+  <opcionA> Un sistema que ofrece menos integración y menos tolerancia a fallos, por lo que supone una mala solución.</opcionA>
+  <opcionB>Un sistema de almacenamiento que usa múltiples discos duros entre los que se distribuyen o replican los datos. </opcionB>
+  <opcionC>La marca de un spray contra mosquitos.</opcionC>
+  <opcionD>La empresa creadora de las bases de datos.</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado> Algunas de las tecnologías de almacenamiento existentes son: </enunciado>
+  <opcionA> Nginx y haproxy. </opcionA>
+  <opcionB> NAT. </opcionB>
+  <opcionC> RAID, SSA, SAN y NAS.</opcionC>
+  <opcionD> RIP, IGRP, EIGRP y OSPF. </opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
