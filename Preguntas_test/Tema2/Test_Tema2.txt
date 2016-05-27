@@ -1,0 +1,39 @@
+<pregunta>
+  <enunciado>Los problemas de no-disponilidad en un sistema pueden ser: </enunciado>
+  <opcionA> Programados. </opcionA>
+  <opcionB> No-programados. </opcionB>
+  <opcionC> A y B. </opcionC>
+  <opcionD> Benefiosos.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> Un 100% de disponibilidad es:</enunciado>
+  <opcionA> Tener mucha suerte. </opcionA>
+  <opcionB> No sufrir caídas no-programadas. </opcionB>
+  <opcionC> No sufrir caídas programadas. </opcionC>
+  <opcionD> consecuencia de tener una granja web perfecta. </opcionD>
+  <solucion> B </solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>En cuanto a la disponibilidad de las aplicaciones: </enunciado>
+  <opcionA> Hemos de saber que no requieren de manejo adicional. No tienen importancia. </opcionA>
+  <opcionB> Es complicado medir las prestaciones.</opcionB>
+  <opcionC>Pueden existir dependencias entre módulos y el funcionamiento de unos módulos puede afectar
+		a otras aplicaciones. </opcionC>
+  <opcionD> B y C. </opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> La escalabilidad: </enunciado>
+  <opcionA>Se refiere a la capacidad de manejar la carga, y el esfuerzo para adaptarse al nuevo n
+	nivel de carga. </opcionA>
+  <opcionB>Se refiere a la capacidad de aceptar visitas los 24 horas todos los días. </opcionB>
+  <opcionC>Se refiere a la capacidad de hacer de nuestra granja web un sitio seguro. </opcionC>
+  <opcionD>Puede tener ampliaciones verticales, horizontales y en vertical.  </opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+
