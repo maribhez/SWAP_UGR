@@ -1,0 +1,45 @@
+<pregunta>
+  <enunciado> En seguridad es clave el mantener la integridad, que viene a significar lo siguiente:</enunciado>
+  <opcionA> Las comunicaciones deben ser secretas. </opcionA>
+  <opcionB> Los mensajes enviados deben ser exactamente los recibidos. </opcionB>
+  <opcionC> La comunicación con cualquier aplicación o servicio de la granja web debe estar disponible en el moemnto 
+		en que sea requerida. </opcionC>
+  <opcionD> Nadie, bajo ningún concepto, debe entrar a nuestra granja web.</opcionD>
+  <solucion> B </solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> Un sistema de seguridad. </enunciado>
+  <opcionA> Puede hacer totalmente seguro el acceso al sistema. </opcionA>
+  <opcionB> Impide el acceso de los hackers a la granja web. </opcionB>
+  <opcionC> Complica la tarea del hacker incrementando el tiempo necesario para superar cada
+		nivel y así poder detectar el ataque a tiempo.</opcionC>
+ <opcionD> No es algo importante para la empresa en cuestión. </opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado> Los procedimientos de autenticación que se suelen usar, de más a menos efectivos son: </enunciado>
+  <opcionA> Un escáner de retina, huella dactilar o ADN, una tarjeta física que incluirá la clave, o una clave o PIN.</opcionA>
+  <opcionB> Una clave o PIN, una tarjeta física que incluirá la clave, un escáner de retina, huella dactilar o ADN.</opcionB>
+  <opcionC> Todos los métodos presentan la misma efectividad, basta con escoger uno de ellos. </opcionC>
+  <opcionD> Una tarjeta física, una clave o PIN, y un escaner de retina, huella dactilar o ADN. </opcionD>
+  <solucion>A </solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado>Bloquear y filtrar paquetes de red inspeccionando las direcciones y puertos de cada paquete 
+	enviado entre las subredes que separa y controla es tarea de: </enunciado>
+  <opcionA> Administradores.</opcionA>
+  <opcionB> Los cortafuegos.</opcionB>
+  <opcionC> Usuarios con buena fe.</opcionC>
+  <opcionD> El protocolo FTP.</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+
+
+
+
