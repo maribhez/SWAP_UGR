@@ -1,0 +1,30 @@
+<pregunta>
+  <enunciado>La primera configuración de DMZ que dispone de un cortafuegos entre 
+		Internet y la granja web es:</enunciado>
+  <opcionA>DMZ Simple. </opcionA>
+  <opcionB>DMZ Tradicional. </opcionB>
+  <opcionC>DMZ Doble.</opcionC>
+  <opcionD>Todas las configuraciones lo cumplen. </opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>La conexión a Internet depende de varios factores para asegurar la calidad
+	del servicio y la seguridad: </enunciado>
+  <opcionA>Calidad del servicio y ancho de banda.</opcionA>
+  <opcionB>Todas las opciones son correctas.</opcionB>
+  <opcionC>NAT: Network address translation.</opcionC>
+  <opcionD>Filtrado y bloqueo de paquetes.</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Una organización:</enunciado>
+  <opcionA> Puede necesitar los servicios de otras empresas y por lo tanto necesitar 
+		la conexión a dichas redes. </opcionA>
+  <opcionB> Siempre se basta con los servicios que dicha organización presta.</opcionB>
+  <opcionC> No debe preocuparse por la seguridad de sus servicios.</opcionC>
+  <opcionD> Nunca usará mecanismos de filtrados y bloqueo de paquetes.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
