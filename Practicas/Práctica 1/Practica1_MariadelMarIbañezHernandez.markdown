@@ -17,13 +17,13 @@ Así, para ir explicando y especificando todos los pasos seguidos para cumplimen
 
 * *Primer paso*: Instalación de las máquinas Linux con Ubuntu Server. 
 
-![Instalación de la primera máquina. ](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/InstalacionMV1.PNG "Instalación de la primera máquina.")
+![img](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/InstalacionMV1.PNG)
 
  * *Segundo paso*: Durante la instalación de esta máquina no apareció la opción de instalar LAMP, por lo que tuve que instalar de forma manual Apache, PHP y MySQL. 
  
-![Instalación de LAMP](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/LAMP_2.PNG "Instalación de LAMP")
+![img](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/LAMP_2.PNG)
 
-![ComprobacionServidorWeb](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/maquina2Ultimo.PNG "ComprobacionServidorWeb")
+![img](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/maquina2Ultimo.PNG)
 
 * *Tercer paso:* Instalación de CURL (para comprobar que el servidor web está activo).
 
@@ -31,13 +31,13 @@ Tanto para la máquina 1 como para la segunda máquina el comando a ejecutar ha 
 
 * *Cuarto paso:* Crear archivo de prueba para comprobar que Apache está funcionando con el siguiente contenido: 
 
-       ![PruebaApache](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/m1_hola.PNG "PruebaApache")
+       ![img](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/m1_hola.PNG)
        
 
 * *Quinto paso:* Acceder a la página de prueba creada usando la URL de nuestro servidor. Adjunto captura de la demostración del funcionamiento en ambas máquinas: 
 
 
-![PruebaCurlMaquina1](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/curl1.JPG "PruebaCurlMaquina1")
+![img](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/curl1.JPG)
 
-![Prueba del comando curl](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/maquina2.PNG "Prueba del comando curl")
+![img](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/maquina2.PNG)
 
