@@ -19,11 +19,18 @@ Así, para ir explicando y especificando todos los pasos seguidos para cumplimen
 
 ![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Pr%C3%A1ctica1/Capturas/InstalacionMV1.PNG)
 
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Pr%C3%A1ctica1/Capturas/InstalacionMV2.PNG)
+
  * *Segundo paso*: Durante la instalación de esta máquina no apareció la opción de instalar LAMP, por lo que tuve que instalar de forma manual Apache, PHP y MySQL. 
  
-![img](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/LAMP_2.PNG)
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Pr%C3%A1ctica1/Capturas/LAMP_2.PNG)
 
-![img](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/maquina2Ultimo.PNG)
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Pr%C3%A1ctica1/Capturas/LAMP_1.PNG)
+
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Pr%C3%A1ctica1/Capturas/maquina2Ultimo.PNG)
+
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Pr%C3%A1ctica1/Capturas/m1-Final.PNG)
+
 
 * *Tercer paso:* Instalación de CURL (para comprobar que el servidor web está activo).
 
@@ -31,13 +38,13 @@ Tanto para la máquina 1 como para la segunda máquina el comando a ejecutar ha 
 
 * *Cuarto paso:* Crear archivo de prueba para comprobar que Apache está funcionando con el siguiente contenido: 
 
-       ![img](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/m1_hola.PNG)
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Pr%C3%A1ctica1/Capturas/m1_hola.PNG)
        
 
 * *Quinto paso:* Acceder a la página de prueba creada usando la URL de nuestro servidor. Adjunto captura de la demostración del funcionamiento en ambas máquinas: 
 
 
-![img](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/curl1.JPG)
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Pr%C3%A1ctica1/Capturas/curl1.JPG)
 
-![img](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/maquina2.PNG)
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Pr%C3%A1ctica1/Capturas/maquina2.PNG)
 
