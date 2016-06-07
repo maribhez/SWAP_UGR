@@ -17,7 +17,7 @@ Así, para ir explicando y especificando todos los pasos seguidos para cumplimen
 
 * *Primer paso*: Instalación de las máquinas Linux con Ubuntu Server. 
 
-![img](C:/Users/Mmar/Desktop/Universidad/SWAP/Practicas/Practica1/Capturas/InstalacionMV1.PNG)
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Pr%C3%A1ctica1/Capturas/InstalacionMV1.PNG)
 
  * *Segundo paso*: Durante la instalación de esta máquina no apareció la opción de instalar LAMP, por lo que tuve que instalar de forma manual Apache, PHP y MySQL. 
  
