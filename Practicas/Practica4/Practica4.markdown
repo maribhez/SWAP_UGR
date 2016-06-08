@@ -1,4 +1,4 @@
-#Practica 4. 
+#Práctica 4. 
 
 ## Comprobar el rendimiento de servidores web. 
 
