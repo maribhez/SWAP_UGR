@@ -58,6 +58,7 @@ Aquí muestro las gráficas obtenidas para estas comprobaciones.
 
 ![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica4/Capturas/LorgestTransaction.JPG)
 
+*Nota:* Hay datos que no aparecen representados en estas gráficas y es por haber obtenido como resultado el mismo valor para todos (por ejemplo, ningún fallo para ninguna de las ejecuciones).
 
 
 
