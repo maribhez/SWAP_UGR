@@ -2,7 +2,7 @@
 
 ##Clonar la información de un sitio web. 
 
-1. Instalar la herramienta rsync. 
+- Instalar la herramienta rsync. 
 
 Para sincronizar grandes cantidades de información entre varias máquinas contamos con la herramiena *rsync*, sabiendo de antemano que para instalarla basta con usar el comando **sudo apt-get install rsync**. 
 
@@ -14,13 +14,15 @@ De todas formas, probamos el funcionamiento de la herramienta en cuestión con e
 
 Se nos pedirá la clave root en la máquina principal y después de unos segundos comprobaremos que el directorio escogido para clonar aparece en ambas máquinas, manteniendo los permisos y dueños de la máquina origen. 
 
-*Prueba en la primera máquina (máquina principal). *
+*Prueba en la primera máquina (máquina principal).*
+
 ![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica2/Capturas/ls_la1.JPG)
 
 *Prueba en la siguiente máquina.*
+
 ![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica2/Capturas/ls_la2.JPG)
 
-2. Acceso sin contraseña para ssh. 
+- Acceso sin contraseña para ssh. 
 
 Aunque *rsync* puede ser de mucha ayuda es realmente costoso tener que mantener a mano la información que se vaya actualizando en las máquinas y queramos tener actualizada. 
 
@@ -42,7 +44,7 @@ Y ya podremos conectarnos a dicho equipo sin problema.
 ![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica2/Capturas/comprobacion_sincontrase%C3%B1a.JPG)
 
 
-3. Programar tareas con contrab.  
+- Programar tareas con contrab.  
 
 Una vez tengamos configurado el uso de ssh sin necesidad de contraseña vamos a poder ejecutar scripts con el comando *rsync* para mantener actualizada la información de ambas máquinas.
 
@@ -51,9 +53,11 @@ Una vez tengamos configurado el uso de ssh sin necesidad de contraseña vamos a 
 Por lo tanto, debemos editar el fichero /etc/crontab añadiendo las tareas que creamos necesarias pero teniendo en cuenta la forma en la que están orgenizados los campos de las líneas de dichos ficheros. 
 
 *Script que ejecutará la orden rsync.*
+
 ![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica2/Capturas/script_ssh.JPG)
 
 *Archivo /etc/crontab/ actualizado para que ejecute el script mostrado arriba.*
+
 ![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica2/Capturas/crontab.JPG)
 
 He aquí una prueba del funcionamiento de la tarea especificada en cron. 
