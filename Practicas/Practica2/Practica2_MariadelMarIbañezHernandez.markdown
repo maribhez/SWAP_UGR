@@ -46,3 +46,16 @@ Y ya podremos conectarnos a dicho equipo sin problema.
 
 Una vez tengamos configurado el uso de ssh sin necesidad de contraseña vamos a poder ejecutar scripts con el comando *rsync* para mantener actualizada la información de ambas máquinas.
 
+**Cron** es un administrador de procesos que ejecuta procesos en el instante que indica el fichero crontab (en */etc/crontab*). 
+
+Por lo tanto, debemos editar el fichero /etc/crontab añadiendo las tareas que creamos necesarias pero teniendo en cuenta la forma en la que están orgenizados los campos de las líneas de dichos ficheros. 
+
+*Script que ejecutará la orden rsync.*
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica2/Capturas/script_ssh.JPG)
+
+*Archivo /etc/crontab/ actualizado para que ejecute el script mostrado arriba.*
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica2/Capturas/crontab.JPG)
+
+He aquí una prueba del funcionamiento de la tarea especificada en cron. 
+
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica2/Capturas/pureba_crontab.JPG)
