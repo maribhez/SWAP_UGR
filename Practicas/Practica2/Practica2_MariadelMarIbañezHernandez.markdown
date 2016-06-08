@@ -14,6 +14,35 @@ De todas formas, probamos el funcionamiento de la herramienta en cuestión con e
 
 Se nos pedirá la clave root en la máquina principal y después de unos segundos comprobaremos que el directorio escogido para clonar aparece en ambas máquinas, manteniendo los permisos y dueños de la máquina origen. 
 
-![Prueba ls -la /var/www de la primera máquina.](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica2/Capturas/ls_la1.JPG)
+*Prueba en la primera máquina (máquina principal). *
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica2/Capturas/ls_la1.JPG)
 
-![Prueba ls -la /var/www de la segunda máquina.](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica2/Capturas/ls_la2.JPG)
+*Prueba en la siguiente máquina.*
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica2/Capturas/ls_la2.JPG)
+
+2. Acceso sin contraseña para ssh. 
+
+Aunque *rsync* puede ser de mucha ayuda es realmente costoso tener que mantener a mano la información que se vaya actualizando en las máquinas y queramos tener actualizada. 
+
+Es por ello que debemos configurar *ssh* para que no necesite esperar contraseña y así agilizar el proces ode copia. 
+
+Para ello se suele usar autenticación con un par de claves pública-privada. 
+
+Y es así como mediante *ssh-keygen -t dsa* vamos a generar la clave.
+
+En la máquina secundaria ejecutamos el comando especificado una línea más arriba, dejando en blanco la contraseña que se nos pide ya que es eso lo que andamos buscando (no tener que introducir contraseña alguna para la copia de archivos mediante ssh).
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica2/Capturas/ssh_withoutpassword.JPG)
+
+A continuación se copiará la clave pública creada a la máquina principal, a la que se quiere acceder) usando el comando *ssh-copy-id* integrando en ssh.  
+
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica2/Capturas/ssh_withoutpassword_2_desdeMV1.JPG)
+
+Y ya podremos conectarnos a dicho equipo sin problema. 
+
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica2/Capturas/comprobacion_sincontrase%C3%B1a.JPG)
+
+
+3. Programar tareas con contrab.  
+
+Una vez tengamos configurado el uso de ssh sin necesidad de contraseña vamos a poder ejecutar scripts con el comando *rsync* para mantener actualizada la información de ambas máquinas.
+
