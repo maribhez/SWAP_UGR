@@ -68,24 +68,39 @@ Modificamos los siguiente parametros:
 
 4. Establecemos el archivo del registro binario que contendrá toda la información que estará disponible en el registro de actualizaciones: **log_bin = /var/log/mysql/bin.log**
 
+Ahora, reinicimos el sistema y si no hemos tenido ningún problema realizamos la misma modificación en la máquina esclavo, sabiendo que posteriormente vamos a tener que añadir información adicional (ya que por la versión de *mysql* no se permite añadirla al archivo de configuración).
+
+Reiniciamos el servidor, y ya podremos crear un usuario en la máquina maestro y darle permisos de acceso para proceder a la replicación. 
+
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica5/Capturas/configuracion_maestro.JPG)
+
+ 
+Y es ahora cuando debemos volver a la máquina esclavo y darle la configuración que nos devuelva el comando **SHOW MASTER STATUS;** de la máquina principal. Así, añadimos la configuración y lanzamos el esclavo. 
+
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica5/Capturas/configuracion_esclavo.JPG)
+
+Una vez lanzado el esclavo comprobamos que el esclavo es correcto (con **SHOW SLAVE STATUS\G;), sabiendo que la variable "Seconds_Behind_Master" debe ser distinta de null. 
+
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica5/Capturas/correcto_esclavo.JPG) 
+
+Comprobamos el funcionamiento de la configuración añadiendo un dato en la máquina maestra y comprobando mediante los comandos oportunos que aparecen al momento en la esclavo. 
+
+
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica5/Capturas/comprobacion_maestro_esclavo.JPG)
 
 
 
+- Replicación de BD mediante una configuración maestro-maestro. 
 
+Como tarea adicional se planteaba la configuración maestro-maestro. 
 
+Para esto tan solo es necesario realizar los pasos que tuvimos que hacer para configurar la máquina esclavo (crear usuario y darle permisos, conocer los datos de la base de datos de la que vamos a copiar información y añadir la linea de comandos con toda la configuración creada y obtenida). 
 
+La demostración aparece en las siguientes imágenes, creando datos en ambas máquinas y comprobando que se copian en ambos sentidos. 
 
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica5/Capturas/pruebaMaestroMaestro_conCreaciondesdeMaquinaPrincipal.JPG)
 
-
-
-
-
-
-
-
-
-
-
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica5/Capturas/pruebaMaestroMaestro_conCreaciondesdeMaquinaClonada.JPG)
 
 
 
