@@ -39,7 +39,7 @@ Ahora, para configurar el sistema para que monte el dispositivo RAID al arrancar
 
 Una vez que esté funcionando el dispositivo RAID podemos simular un fallo de la siguiente forma: 
 
-![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica6/Capturas/retira_disco.JPG)
+![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica6/Capturas/simula_fallo.JPG)
 
 ![img](https://github.com/maribhez/SWAP_UGR/blob/master/Practicas/Practica6/Capturas/comprobacion_fallo.JPG)
 
